@@ -1,0 +1,180 @@
+# Virtual Environment
+transformer_env/
+venv/
+env/
+ENV/
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+pip-wheel-metadata/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# PyTorch Model Files
+*.pt
+*.pth
+*.ckpt
+checkpoints/
+test_checkpoints/
+models/
+saved_models/
+
+# Training Logs and Results
+logs/
+results/
+wandb/
+.wandb/
+tensorboard_logs/
+training_curves.png
+
+# Data Files (optional - uncomment if you don't want to track data)
+# R0315/
+# *.fa
+# *.fasta
+# *.tab
+# *.txt
+# *.wtmx
+
+# IDE and Editor Files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+
+# Jupyter Notebooks
+.ipynb_checkpoints/
+*.ipynb
+
+# Configuration Files (with sensitive data)
+config_local.ini
+.env
+.env.local
+
+# Temporary Files
+*.tmp
+*.temp
+temp/
+tmp/
+
+# Windows
+desktop.ini
+ehthumbs.db
+Thumbs.db
+
+# MacOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Linux
+*~
+
+# Backup Files
+*.bak
+*.backup
+*.orig
+
+# Generated Documentation
+docs/_build/
+site/
+
+# Coverage Reports
+htmlcov/
+.coverage
+.coverage.*
+coverage.xml
+*.cover
+.hypothesis/
+.pytest_cache/
+
+# Performance Profiling
+*.prof
+
+# Large Output Files
+*.out
+*.log
+*.csv
+
+# Compiled Extensions
+*.dll
+*.dylib
+*.so
+
+# Package Files
+*.tar.gz
+*.zip
+*.rar
+
+# Cache directories
+.cache/
+.mypy_cache/
+.pytest_cache/
+.ruff_cache/
+
+# Flask instance folder
+instance/
+
+# Scrapy
+.scrapy
+
+# Sphinx documentation
+docs/_build/
+
+# PyBuilder
+target/
+
+# pyenv
+.python-version
+
+# pipenv
+Pipfile.lock
+
+# PEP 582
+__pypackages__/
+
+# Celery
+celerybeat-schedule
+celerybeat.pid
+
+# SageMath parsed files
+*.sage.py
+
+# Spyder project settings
+.spyderproject
+.spyproject
+
+# Rope project settings
+.ropeproject
+
+# mkdocs documentation
+/site
+
+# mypy
+.mypy_cache/
+.dmypy.json
+dmypy.json
+
+# Pyre type checker
+.pyre/

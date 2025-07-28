@@ -1,0 +1,38 @@
+ACTIVATION INSTRUCTIONS FOR MINGW64
+===================================
+
+Since you're using MinGW64 on Windows, here are the correct commands:
+
+1. ACTIVATE THE VIRTUAL ENVIRONMENT:
+   
+   Option A (Recommended for MinGW64):
+   $ . transformer_env/Scripts/activate
+   
+   Option B (Also works):
+   $ source transformer_env/Scripts/activate
+   
+   Option C (If above don't work):
+   $ transformer_env/Scripts/activate.bat
+
+2. VERIFY ACTIVATION:
+   You should see (transformer_env) in your prompt.
+   
+   Test with:
+   $ which python
+   Should show: /c/Users/jcbcl/annotyTransformer/transformer_env/Scripts/python
+
+3. INSTALL DEPENDENCIES:
+   $ python -m pip install --upgrade pip
+   $ pip install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cpu
+   $ pip install numpy pandas scikit-learn matplotlib tqdm
+
+4. TEST THE INSTALLATION:
+   $ python simple_demo.py
+
+5. TO DEACTIVATE LATER:
+   $ deactivate
+
+COMMON ISSUES ON MINGW64:
+- If 'source' doesn't work, use the dot notation: . transformer_env/Scripts/activate
+- The Scripts folder (not bin) contains the executables on Windows
+- Use forward slashes (/) not backslashes (\) in MinGW64
