@@ -3,9 +3,12 @@
 A transformer-based model for transcription factor binding site annotation that transforms your existing HMM framework into a modern deep learning approach using attention mechanisms.  In particular thermodynamic modeling of binding site occupancy data based on expression targets.
 
 This was developed in/by claude code in MINGW64, while many of my other recent projects are developed in wsl from vs code which results in differences in files
-From MINGW64 from Windows git bash run the code with the following command
+From MINGW64
+From Windows git bash run the code with the following command
 
 . transformer_env/Scripts/activate && python simple_demo.py
+
+From a wsl linux environment perhaps run venv first from the command line in the folder, and then pip install, I haven't tried yet, but see further suggestions below from Claude code.
 ## Overview
 
 This project converts your HMM-based transcription factor binding site annotation system into a transformer model that:
