@@ -1,0 +1,15 @@
+{
+  "max_seq_length": 1024,
+  "dna_vocab_size": 6,
+  "dna_embed_dim": 128,
+  "max_conditions": 40,
+  "expr_embed_dim": 64,
+  "num_heads": 8,
+  "num_layers": 2,
+  "hidden_dim": 128,
+  "dropout": 0.1,
+  "num_tf_types": 10,
+  "max_binding_sites": 50,
+  "learning_rate": 0.0001,
+  "batch_size": 4
+}

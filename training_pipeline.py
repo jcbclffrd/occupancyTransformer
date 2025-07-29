@@ -371,7 +371,7 @@ class BindingSitePredictor:
 
 def load_trained_model(checkpoint_path: str, device: str = None) -> TFBindingTransformer:
     """Load a trained model from checkpoint"""
-    checkpoint = torch.load(checkpoint_path, map_location=device)
+    checkpoint = torch.load(checkpoint_path, map_location=device, weights_only=False)
     config = checkpoint['config']
     
     model = create_model(config)
